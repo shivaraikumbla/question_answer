@@ -11,10 +11,13 @@ public class Q26 {
 				if(inp[i] == inp[j]){
 					System.out.println(inp[j]);
 					count++;
+					
 					break;
 				}
 			}
 		}
+		
+		System.out.println(count);
 	}
 
 }

@@ -18,7 +18,7 @@ public class Day {
 		System.out.println("enter a year");
 			int year=scanner.nextInt();
 			Date date1=(new GregorianCalendar(year,month,date)).getTime();
-			SimpleDateFormat f= new SimpleDateFormat();
+			SimpleDateFormat f= new SimpleDateFormat("EEEE");
 			String day=f.format(date);
 			System.out.println(day);
 		}

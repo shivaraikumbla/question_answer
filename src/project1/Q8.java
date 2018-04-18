@@ -23,3 +23,5 @@ public class Q8 {
 		 System.out.println(s);
 		 
 	}}
+
+//*
